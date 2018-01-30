@@ -96,7 +96,7 @@ namespace HDDIndicator
                 }
             } catch( ThreadAbortException tae )
             {
-                // Abort thread
+                // Abort the thread
                 driveDataClass.Dispose();
             }
         }
