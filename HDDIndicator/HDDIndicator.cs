@@ -94,7 +94,7 @@ namespace HDDIndicator
                     // Sleep for 0.1ms
                     Thread.Sleep(100);
                 }
-            } catch( ThreadAbortException tae )
+            } catch (ThreadAbortException)
             {
                 // Abort the thread
                 driveDataClass.Dispose();
