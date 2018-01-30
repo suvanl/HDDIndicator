@@ -1,5 +1,5 @@
 # HDDIndicator
-A hard disk usage indicator for the Windows notification area.
+A hard disk usage indicator for the Windows status bar/notification area.
 
 Packaged application coming soon.
 
