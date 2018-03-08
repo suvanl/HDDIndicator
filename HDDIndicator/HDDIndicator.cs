@@ -36,7 +36,7 @@ namespace HDDIndicator
                 Visible = true
             };
 
-            MenuItem progNameMenuItem = new MenuItem("HDD Usage Indicator v1.0.0 Beta");
+            MenuItem progNameMenuItem = new MenuItem("HDD Usage Indicator v1.0.2");
             MenuItem quitMenuItem = new MenuItem("Quit");
             ContextMenu contextMenu = new ContextMenu();
             contextMenu.MenuItems.Add(progNameMenuItem);
