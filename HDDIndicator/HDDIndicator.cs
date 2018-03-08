@@ -30,9 +30,11 @@ namespace HDDIndicator
             InitializeComponent();
             activeIcon = new Icon("HDD_Busy.ico");
             idleIcon = new Icon("HDD_Idle.ico");
-            hddIndicatorIcon = new NotifyIcon();
-            hddIndicatorIcon.Icon = idleIcon;
-            hddIndicatorIcon.Visible = true;
+            hddIndicatorIcon = new NotifyIcon
+            {
+                Icon = idleIcon,
+                Visible = true
+            };
 
             MenuItem progNameMenuItem = new MenuItem("HDD Usage Indicator v1.0.0 Beta");
             MenuItem quitMenuItem = new MenuItem("Quit");
@@ -91,7 +93,7 @@ namespace HDDIndicator
                         }
                     }
                     
-                    // Sleep for 0.1ms
+                    // Sleep for 0.1s
                     Thread.Sleep(100);
                 }
             } catch (ThreadAbortException)

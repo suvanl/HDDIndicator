@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.27130.2003
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HDDIndicator", "HDDIndicator\HDDIndicator.csproj", "{A6F0A847-55C3-4948-98E7-CF094A48EE21}"
 EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Setup", "Setup\Setup.vdproj", "{00047DC8-C6B5-4D48-BC76-A3C77F4D4666}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,8 @@ Global
 		{A6F0A847-55C3-4948-98E7-CF094A48EE21}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A6F0A847-55C3-4948-98E7-CF094A48EE21}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A6F0A847-55C3-4948-98E7-CF094A48EE21}.Release|Any CPU.Build.0 = Release|Any CPU
+		{00047DC8-C6B5-4D48-BC76-A3C77F4D4666}.Debug|Any CPU.ActiveCfg = Debug
+		{00047DC8-C6B5-4D48-BC76-A3C77F4D4666}.Release|Any CPU.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
